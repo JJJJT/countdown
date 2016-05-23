@@ -21,7 +21,7 @@ function getTimeRemaining(endtime) {
 }
 window.onload = function (){
               // new Date(year, month,  day,  hours,  minutes,  seconds,  milliseconds);
-  var deadline = new Date(2047, 7,      1,    0,      0,        0,        0);
+  var deadline = new Date(2047, 6,      1,    0,      0,        0,        0);
   initializeClock('clockdiv', deadline);
   
 }
